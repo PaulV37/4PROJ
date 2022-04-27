@@ -1,0 +1,48 @@
+.bodyloginscreen {
+    background-color: #3D2683;
+}
+
+.mdpf{
+    color: white;
+}
+
+.titrelog{
+    text-align: center;
+    color: white;
+}
+
+.titrelog2{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.h1log{
+    color: white;
+    margin-top: 3%;
+}
+
+.h1log1{
+    color: white;
+    margin-top: 20%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 40%;
+    height: 60%;
+  }
+
+.logsub{
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 3%;
+    display: block;
+}
+
+.sco{
+    margin-top: 5%;
+}

@@ -1,0 +1,57 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <title>Connexion</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="custom.css" />
+      <link rel="icon" type="image/png" href="img/Supinfo.png" />
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="custom.js"></script>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    </head>
+    <body class="bodyloginscreen">
+        <div id="container">
+            <!-- zone de connexion -->
+            
+            <!-- <form action="Server.js" method="POST"> -->
+            <form action="Accueil.html" method="GET">
+                <div class="container-fluid">
+                    <div class="row">
+                       <div class="col-6">
+                            <img src="img/Supinfo.png" class="center">
+                            <h1 class="titrelog2">L'école des experts</h1>
+                            <h1 class="titrelog">métiers de l'informatique</h1>
+                       </div>
+                       <div class="col-6">
+                            <label class="h1log1"><b>Email :</b></label>
+                            <br>
+                            <input type="text" name="username" required size="50">
+                            <br>
+                            <label class="h1log"><b>Password :</b></label>
+                            <br>
+                            <input type="password" name="password" required size="50">
+                            <br>
+                            <a href="recuperation.php" class="mdpf">
+                                <u>Mot de passe oublié?</u>
+                            </a>
+                            <br>
+                            <input type="checkbox" id="sco" class="sco"> <label class="mdpf">Rester connecter</label>
+                            <br>
+                            <input type="submit" id='submit' value='Se connecter' class="logsub">
+                            
+                       </div>
+                    </div>
+                </div>
+            </form>
+        <div id="foot-placeholder"></div>
+        <script>$(function(){$("#foot-placeholder").load("foot.html");});</script>
+        </div>
+    </body>
+</html>
